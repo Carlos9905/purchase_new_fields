@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- USO CFDI -->
+        <record id="uso_cfdi_1" model="using.cfdi">
+            <field name="name">G01</field>
+            <field name="valor">ADQUISICION DE MERCANCIAS</field>
+        </record>
+        <record id="uso_cfdi_2" model="using.cfdi">
+            <field name="name">G03</field>
+            <field name="valor">GASTOS EN GENERAL</field>
+        </record>
+        <record id="uso_cfdi_3" model="using.cfdi">
+            <field name="name">I05</field>
+            <field name="valor">DADOS TROQUELES MOLDES MATRICES Y HERRAMENTAL</field>
+        </record>
+        <!-- FORMA DE PAGO	-->
+        <record id="forma_pago_1" model="forma.pago">
+            <field name="name">99</field>
+            <field name="valor">POR DEFINIR</field>
+        </record>
+        <!-- METODO DE PAGO	-->
+        <record id="metodo_pago_1" model="metodo.pago">
+            <field name="name">PPD</field>
+            <field name="valor">PAGO EN PARCIALIDADES O DEFINIDO</field>
+        </record>
+        <record id="metodo_pago_2" model="metodo.pago">
+            <field name="name">PUE</field>
+            <field name="valor">PAGO EN UNA SOLA EXIBICION</field>
+        </record>
+    </data>
+</odoo>

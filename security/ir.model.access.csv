@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_using_cfdi_user,purchase_new_fields.using.cfdi,model_using_cfdi,base.group_user,1,1,1,1
+access_forma_pago_user,purchase_new_fields.forma.pago,model_forma_pago,base.group_user,1,1,1,1
+access_metodo_pago_user,purchase_new_fields.metodo.pago,model_metodo_pago,base.group_user,1,1,1,1
